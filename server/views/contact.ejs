@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <%- include('partials/styles.ejs') %>
+    <!-- <title>Forside</title> -->
+    <title><%= title%></title>
+</head>
+<body>
+    <header>
+        <%- include('partials/header.ejs') %>
+        <nav>
+            <%- include('partials/nav.ejs') %>
+        </nav>
+    </header>
+    <main>
+        <h1>Velkommen til Kontaktsiden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos reprehenderit pariatur error. Eaque ipsum quod, beatae, tempore dolorum cum itaque, hic tempora voluptatum at numquam non dolore blanditiis quam id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto atque minima nihil in? Quod unde beatae sunt ipsam perspiciatis praesentium suscipit nostrum quisquam iure, aliquid, illo enim repudiandae ad?</p>
+    </main>
+    <footer>
+        <%- include('partials/footer.ejs') %>
+    </footer>
+    <%- include('../views/partials/scripts.ejs') %>
+</body>
+</html>
